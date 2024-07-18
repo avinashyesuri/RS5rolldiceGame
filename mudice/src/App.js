@@ -9,18 +9,18 @@ function App() {
 
 
 
-  const Toggleplay =()=>{
+  const Toggleplay = () => {
     // setstartPlay(true)
-      setstartPlay((prev)=> !prev)
+    setstartPlay((prev) => !prev)
   }
 
 
 
   return (
-  <>
-{startPlay? <PlayDicePgs toggle= {Toggleplay}/>:<LandingDicePg toggle= {Toggleplay}/>}
-   
-  </>
+    <>
+      {startPlay ? <PlayDicePgs toggle={Toggleplay} /> : <LandingDicePg toggle={Toggleplay} />}
+
+    </>
   );
 }
 

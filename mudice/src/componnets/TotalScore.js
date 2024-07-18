@@ -1,10 +1,10 @@
 import React from 'react'
 import './AllPags.css';
-const TtoaslScore = () => {
+const TtoaslScore = (props) => {
     return (
         <div> <div className='playDiceMain'>
-            <h1 className='numericalSty'>0</h1>
-            <button>Total ScoreE--</button>
+            <h1 className='numericalSty'>{props.score}</h1>
+            <button>Total ScoreE</button>
         </div></div>
     )
 }

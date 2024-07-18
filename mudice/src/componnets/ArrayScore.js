@@ -16,16 +16,20 @@ const ArrayScore = () => {
 
     const arrayNum = [1, 2, 3, 4, 5, 6];
     const [arrayVal, setArrayVal] = useState(null);
-    const [diceVal,setDiceVal] = useState(1)
 
+
+
+    const [diceVal,setDiceVal] = useState(1)
+    const randomFun = (max,min)=>{
+        console.log(Math.ceil(Math.random() * (max -min) + min))
+        return Math.ceil(Math.random() * (max -min) + min)
+    }
 
  const Rolldice = ()=>{
    const ranDomNum = randomFun(0,6)
        setDiceVal((prev) => ranDomNum);
    }
-    const randomFun = (max,min)=>{
-        console.log(Math.ceil(Math.random() * (max -min) + min))
-    }
+
     return (
         <div style={arrayScre}>
             <div className='flex'>
@@ -45,7 +49,7 @@ const ArrayScore = () => {
             </p>
 
             <div onClick={Rolldice}>
-                <img src={`fd${diceVal}`} alt ="dice"/>
+                <img src={`fd${diceVal}`} alt ={`dice ${diceVal}`}/>
                 <p style={{ margin: "10px", color: "black", fontWeight: "bolder", alignItems: "flex-end" }}>
                 CLICK ON DICE TO ROLL
             </p>

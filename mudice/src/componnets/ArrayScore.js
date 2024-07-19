@@ -73,7 +73,7 @@
 import React from 'react';
 import './AllPags.css';
 
-const ArrayScore = ({ arrayVal, diceVal, arrayNum, setArrayVal, Rolldice }) => {
+const ArrayScore = ({ arrayVal, diceVal, arrayNum, setArrayVal, Rolldice,err }) => {
   const arrayScre = {
     display: 'flex',
     flexDirection: 'column',
@@ -82,6 +82,9 @@ const ArrayScore = ({ arrayVal, diceVal, arrayNum, setArrayVal, Rolldice }) => {
 
   return (
     <div style={arrayScre}>
+   <p style={{ margin: '10px', color: 'black', fontWeight: 'bolder', alignItems: 'flex-end' }}>
+        SELECT NO {err}
+      </p>
       <div className='flex'>
         {arrayNum.map((val, inde) => (
           <div
@@ -93,17 +96,15 @@ const ArrayScore = ({ arrayVal, diceVal, arrayNum, setArrayVal, Rolldice }) => {
           </div>
         ))}
       </div>
-      <p style={{ margin: '10px', color: 'black', fontWeight: 'bolder', alignItems: 'flex-end' }}>
-        SELECT NO
-      </p>
+     
 
-      <div onClick={Rolldice}>
+      <div  style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between',alignItems:"center",  alignSelf:"center" }} onClick={Rolldice}>
+        
         <img src={`fd${diceVal}`} alt={`dice ${diceVal}`} />
         <p style={{ margin: '10px', color: 'black', fontWeight: 'bolder', alignItems: 'flex-end' }}>
           CLICK ON DICE TO ROLL
         </p>
-        <button>Reset Scores</button>
-        <button>Show Rulz</button>
+    
       </div>
     </div>
   );

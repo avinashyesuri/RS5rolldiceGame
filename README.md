@@ -1,4 +1,7 @@
 # RS5rolldiceGame
 
 
-ons dos res HALAMADRID!
+ons '1'
+dos  '2'
+tres   '3'
+----------HALAMADRID!

@@ -1,7 +1,10 @@
 # RS5rolldiceGame
 
+How to play Dice
+Select any Number from given card
 
-onoos '1'
-dooess  '2'
-treeees   '3'
--------------HALAMADRID!
+Click on dice image 
+
+After clicking on the dice, if the selected number is equal to the dice number, you will get the same points as the dice [eg.., SNo:2 = DNo:2  so,points is "2"].
+
+If you guess wrong, 2 points will be deducted.

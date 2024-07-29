@@ -1,6 +1,8 @@
 # RS5rolldiceGame
 
-How to play Dice
+How to play Roll Dice
+
+
 Select any Number from given card
 
 Click on dice image 

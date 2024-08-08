@@ -18,7 +18,7 @@ Welcome to the Dice Game project! This is a simple yet fun game built with React
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/dice-game.git
+   git clone https://github.com/avinashyesuri/RS5rolldiceGame.git
 
 
 

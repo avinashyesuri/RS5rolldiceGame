@@ -3,8 +3,9 @@ import React from 'react';
 
 function Showrulz() {
     const cardStyle = {
-        width: '100%',
-        backgroundColor: '#f8d7da', // Lighter light red
+        width: '30%',
+        backgroundColor: 'rgb(144, 177, 190)', // Lighter light red 
+    
         color: 'black',
         margin: '0 auto',
         padding: '20px',
@@ -16,15 +17,18 @@ function Showrulz() {
         alignItems: 'flex-start', // Align items to the start
         fontFamily: 'Arial, sans-serif', // Sharper font
         fontWeight: 'bold', // Bold font
-        
+        position:"absolute",
+        top:"50%",
+        left:"65%"
       };
+      
 
   return (
     <div style={cardStyle}>
       <h1 style={{padding:'10px'}}>How to play Dice</h1>
-      <p style={{padding:'5px'}}>Select any Number</p>
+      <p style={{padding:'5px'}}>Select  NumberCard</p>
       <p style={{padding:'5px'}}>Click on dice image</p>
-      <p style={{padding:'5px'}}>After clicking on the dice, if the selected number is equal to the dice number, you will get the same points as the dice.</p>
+      <p style={{padding:'5px'}}>If you guess correct, Numcard points will be added.</p>
       <p style={{padding:'5px'}}>If you guess wrong, 2 points will be deducted.</p>
     </div>
   );

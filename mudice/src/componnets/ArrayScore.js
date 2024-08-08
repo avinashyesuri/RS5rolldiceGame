@@ -81,9 +81,11 @@ const ArrayScore = ({ arrayVal, diceVal, arrayNum, setArrayVal, Rolldice,err }) 
   };
 
   return (
+
     <div style={arrayScre}>
-   <p style={{ margin: '10px', color: 'black', fontWeight: 'bolder', alignItems: 'flex-end' }}>
-        SELECT NO {err}
+    <div>
+    <p style={{ margin: '10px', color: 'red', fontWeight: 'bolder', alignItems: 'flex-end' }}>
+        {err}
       </p>
       <div className='flex'>
         {arrayNum.map((val, inde) => (
@@ -94,18 +96,25 @@ const ArrayScore = ({ arrayVal, diceVal, arrayNum, setArrayVal, Rolldice,err }) 
           >
             {val}
           </div>
+   
         ))}
+  
       </div>
+      <div>
+        <h4>SELECTED NUMCARDS </h4>
+      </div>
+    </div>
+
      
 
-      <div  style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between',alignItems:"center",  alignSelf:"center" }} onClick={Rolldice}>
+      {/* <div  style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between',alignItems:"center",  alignSelf:"center" }} onClick={Rolldice}>
         
         <img src={`fd${diceVal}`} alt={`dice ${diceVal}`} />
         <p style={{ margin: '10px', color: 'black', fontWeight: 'bolder', alignItems: 'flex-end' }}>
           CLICK ON DICE TO ROLL
         </p>
     
-      </div>
+      </div> */}
     </div>
   );
 };

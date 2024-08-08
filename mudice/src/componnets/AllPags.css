@@ -6,20 +6,60 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 50px;
 }
 .imgSty{
     width: 50%;
 }
 .TextSty{
+    letter-spacing: 2px;
     width: 50%;
-    font-size:96px;
+    font-size:46px;
     font-style: normal;
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: 2px 2px 5px grey;
 }
+.TextSty button{
+ padding: 10px 20px;
+ border-radius: 10px;
+background-color: rgb(24, 23, 23);
+color: white;
+box-shadow: inset;
+}
+.TextSty button:hover{
+cursor: pointer;
+   background-color: rgb(63, 62, 62);
 
+   }
 
+   .totbutt{
+    padding: 10px 20px;
+    border-radius: 10px;
+   background-color: rgb(24, 23, 23);
+   color: white;
+   box-shadow: inset;
+   }
+   .totbutt:hover{
+   cursor: pointer;
+      background-color: rgb(63, 62, 62);
+   
+      }
+
+      .XButt{
+        padding: 10px 20px;
+     
+       background-color: rgb(24, 23, 23);
+       color: white;
+       box-shadow: inset;
+       }
+       .YButt{
+        padding: 10px 20px;
+     
+       background-color: rgb(144, 177, 190);
+       color: white;
+       box-shadow: inset;
+       }
 .numericalSty{
     font-size:56px;
     font-style: normal;

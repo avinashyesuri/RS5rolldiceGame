@@ -1,4 +1,4 @@
-# RS5rolldiceGame
+# RS5 RollDiceGame
 # Dice Game
 
 Welcome to the Dice Game project! This is a simple yet fun game built with React.js. The game involves selecting a number, rolling a dice, and scoring points based on your selection and the dice result.

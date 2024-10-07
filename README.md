@@ -9,7 +9,7 @@ Welcome to the Dice Game project! This is a simple yet fun game built with React
 - **Game Play**: 
   - Select a number between 1 and 6.
   - Roll the dice by clicking on the dice image.
-  - Score points if your selected number matches the dice roll. Points are deducted if you guess wrong.
+  - Score points if  selected number matches the dice roll number . Points are deducted if you guess wrong.
 - **Score Tracking**: Keep track of your score throughout the game.
 - **Reset Functionality**: Reset your score and selections to start over.
 - **Game Rules**: View detailed rules on how to play the game.

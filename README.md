@@ -12,7 +12,7 @@ Welcome to the Dice Game project! This is a simple yet fun game built with React
   - Score points if  selected number matches the dice roll number . Points are deducted if you guess wrong.
 - **Score Tracking**: Keep track of your score throughout the game.
 - **Reset Functionality**: Reset your score and selections to start over.
-- **Game Rules**: View detailed rules on how to play the game.
+- **Game Rules**: View detailed rules on how to play the game. Click on show rulz button>
 
 ## Installation
 

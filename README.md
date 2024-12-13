@@ -2,7 +2,6 @@
 # Dice Game
 Welcome to the Dice Game project! This is a simple yet fun game built with React.js. The game involves selecting a number, rolling a dice, and scoring points based on your selection and the dice result.
 
-
 ## Features
 
 - **Landing Page**: A welcoming landing page with an option to start playing the game.

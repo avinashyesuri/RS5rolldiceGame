@@ -1,8 +1,6 @@
 # RS5 RollDiceGame
-
 # Dice Game
 Welcome to the Dice Game project! This is a simple yet fun game built with React.js. The game involves selecting a number, rolling a dice, and scoring points based on your selection and the dice result
-
 ## Features
 - **Landing Page**: A welcoming landing page with an option to start playing the game.
 - **Game Play**: 
@@ -12,7 +10,6 @@ Welcome to the Dice Game project! This is a simple yet fun game built with React
 - **Score Tracking**: Keep track of your score throughout the game.
 - **Reset Functionality**: Reset your score and selections to start over.
 - **Game Rules**: View detailed rules on how to play the game. Click on show rulz button>
-- 
 ## Installation
 1. Clone the repository:
    ```bash

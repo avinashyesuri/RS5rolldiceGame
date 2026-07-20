@@ -11,12 +11,13 @@ Welcome to the Dice Game project! This is a simple yet fun game built with React
 - **Score Tracking**: Keep track of your score throughout the game.
 - **Reset Functionality**: Reset your score and selections to start over.
 - **Game Rules**: View detailed rules on how to play the game. Click on show rulz button>
-- 
+  
 ## Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/avinashyesuri/RS5rolldiceGame.git
-    
+
+   
 ## Home Page!
 ![image](https://github.com/user-attachments/assets/5f03d556-7c64-42f9-86a4-c65697c9067b)
 
